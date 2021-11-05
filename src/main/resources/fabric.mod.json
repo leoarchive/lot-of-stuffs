@@ -1,29 +1,29 @@
 {
   "schemaVersion": 1,
-  "id": "swordsmod",
+  "id": "lotstuffs",
   "version": "${version}",
 
-  "name": "SwordsMod",
-  "description": "More swords in minecraft",
+  "name": "LotStuffs",
+  "description": "My first minecraft simple mod with a lot of stuffs",
   "authors": [
     "leozamboni"
   ],
   "contact": {
     "homepage": "https://leozamboni.dev/",
-    "sources": "https://github.com/leozamboni/swordsmod"
+    "sources": "https://github.com/leozamboni/alofofstuffs"
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/swordsmod/icon.png",
+  "icon": "assets/lotstuffs/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-        "net.fabricmc.swordsmod.Main"
+        "net.fabricmc.lotstuffs.Main"
     ]
   },
   "mixins": [
-    "swordsmod.mixins.json"
+    "lotstuffs.mixins.json"
   ],
 
   "depends": {
