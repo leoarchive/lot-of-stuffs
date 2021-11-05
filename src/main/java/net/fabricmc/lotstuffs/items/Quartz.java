@@ -7,27 +7,27 @@ import net.minecraft.recipe.Ingredient;
 public class Quartz implements ToolMaterial {
     @Override
     public int getDurability() {
-        return 300;
+        return 1800;
     }
 
     @Override
     public float getMiningSpeedMultiplier() {
-        return 7;
+        return 7f;
     }
 
     @Override
     public float getAttackDamage() {
-        return 3.0f;
+        return 7.1f;
     }
 
     @Override
     public int getMiningLevel() {
-        return 2;
+        return 3;
     }
 
     @Override
     public int getEnchantability() {
-        return 25;
+        return 15;
     }
 
     @Override

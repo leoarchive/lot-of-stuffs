@@ -1,19 +1,19 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    " # ",
-    " # ",
+    "###",
+    " / ",
     " / "
   ],
   "key": {
     "#": {
-      "item": "minecraft:quartz"
+      "item": "minecraft:redstone"
     },
     "/": {
       "item": "minecraft:stick"
     }
   },
   "result": {
-    "item": "lotstuffs:quartz_sword"
+    "item": "lotstuffs:redstone_pickaxe"
   }
 }

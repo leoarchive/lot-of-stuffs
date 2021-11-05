@@ -12,22 +12,22 @@ public class LapisLazuli implements ToolMaterial {
 
     @Override
     public float getMiningSpeedMultiplier() {
-        return 7;
+        return 6.5f;
     }
 
     @Override
     public float getAttackDamage() {
-        return 3.0f;
+        return 6.5f;
     }
 
     @Override
     public int getMiningLevel() {
-        return 2;
+        return 3;
     }
 
     @Override
     public int getEnchantability() {
-        return 25;
+        return 12;
     }
 
     @Override

@@ -7,17 +7,17 @@ import net.minecraft.recipe.Ingredient;
 public class Redstone implements ToolMaterial {
     @Override
     public int getDurability() {
-        return 210;
+        return 200;
     }
 
     @Override
     public float getMiningSpeedMultiplier() {
-        return 6.5f;
+        return 6.2f;
     }
 
     @Override
     public float getAttackDamage() {
-        return 2.0f;
+        return 6.1f;
     }
 
     @Override

@@ -7,17 +7,17 @@ import net.minecraft.recipe.Ingredient;
 public class Copper implements ToolMaterial {
     @Override
     public int getDurability() {
-        return 260;
+        return 300;
     }
 
     @Override
     public float getMiningSpeedMultiplier() {
-        return 5;
+        return 7;
     }
 
     @Override
     public float getAttackDamage() {
-        return 2.5f;
+        return 6.6f;
     }
 
     @Override
@@ -27,7 +27,7 @@ public class Copper implements ToolMaterial {
 
     @Override
     public int getEnchantability() {
-        return 15;
+        return 17;
     }
 
     @Override

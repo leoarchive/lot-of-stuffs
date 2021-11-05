@@ -7,17 +7,17 @@ import net.minecraft.recipe.Ingredient;
 public class Coal implements ToolMaterial {
     @Override
     public int getDurability() {
-        return 20;
+        return 150;
     }
 
     @Override
     public float getMiningSpeedMultiplier() {
-        return 2;
+        return 5;
     }
 
     @Override
     public float getAttackDamage() {
-        return 1.0f;
+        return 4.5f;
     }
 
     @Override
@@ -27,7 +27,7 @@ public class Coal implements ToolMaterial {
 
     @Override
     public int getEnchantability() {
-        return 5;
+        return 7;
     }
 
     @Override

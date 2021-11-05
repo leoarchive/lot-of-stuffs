@@ -7,27 +7,27 @@ import net.minecraft.recipe.Ingredient;
 public class Apple implements ToolMaterial {
     @Override
     public int getDurability() {
-        return 999999;
+        return 3000;
     }
 
     @Override
     public float getMiningSpeedMultiplier() {
-        return 999999;
+        return 30;
     }
 
     @Override
     public float getAttackDamage() {
-        return 999999;
+        return 30;
     }
 
     @Override
     public int getMiningLevel() {
-        return 999999;
+        return 4;
     }
 
     @Override
     public int getEnchantability() {
-        return 999999;
+        return 30;
     }
 
     @Override
